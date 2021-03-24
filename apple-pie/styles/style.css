@@ -62,8 +62,13 @@ h3 {
 }
 li {
   font-size: 1.1em;
-  list-style: none;
+  list-style-type: "-";
+  list-style-type: custom-counter-style;
 }
-.directions{
-    margin-bottom: 70px;
+.directions {
+  margin-bottom: 70px;
+}
+
+.directions li {
+  list-style: none;
 }
