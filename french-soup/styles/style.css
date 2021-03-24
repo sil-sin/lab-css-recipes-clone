@@ -1,3 +1,6 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+</style>
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +9,73 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.header{
+  height: 520px;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  color: white;
+  font-size: 3.8em;
+  font-weight: lighter;
+
+}
+header{
+  display: flex;
+  flex-direction: column;
+}
+header img{
+  align-self: center;
+  width: 350px;
+  margin-bottom:20px;
+ }
+ header p{
+   margin-top: 50px;
+  
+   align-self: center;
+   width: 690px;
+   font-size: 1.1em;
+ }
+ h3{
+  align-self: baseline;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+hr{
+  width:80%;
+}
+.section1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section1 img{
+  width: 320px;
+  margin: 20px;
+}
+.section1 ul{
+  list-style: "-";
+  align-self: baseline;
+  padding-left: 120px;
+}
+.section2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2 ul{
+  list-style: none;
+  align-self: baseline;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  width: 50%;
 }
